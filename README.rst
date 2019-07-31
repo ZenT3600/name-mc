@@ -1,6 +1,7 @@
 # name-mc
 
 This python project will help you get informations from the minecraft website "namemc.com"
+To add this set of utils to your python project, simply add the "name-mc" folder into your project folder
 This module has been tested for the python version 3.7.3
 This module has been tested for the namemc.com version of the 07/31/2019
 Here's a list of all the functions:
