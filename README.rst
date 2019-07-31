@@ -6,7 +6,7 @@ This module has been tested for the namemc.com version of the 07/31/2019
 Here's a list of all the functions:
   Check if a name is avialable:
   ---------------------------------------
-  from name-mc.utils import name
+  from name-mc import name
   
   
   if name.is_avialable("Name"):
@@ -22,7 +22,7 @@ Here's a list of all the functions:
 
   Check montly searches of a name:
   ---------------------------------------
-  from name-mc.utils import name
+  from name-mc import name
   
   
   montly_searches = name.montly_searches("Name")
@@ -32,7 +32,7 @@ Here's a list of all the functions:
   
   Find matching uuid for a name:
   ---------------------------------------
-  from name-mc.utils import name
+  from name-mc import name
   
   
   uuid = name.matching_uuid("Name")
@@ -45,7 +45,7 @@ Here's a list of all the functions:
   
   Get an account previous names:
   ---------------------------------------
-  from name-mc.utils import account
+  from name-mc import account
   
   
   names = account.get_previous_names("Account-Name")
@@ -58,7 +58,7 @@ Here's a list of all the functions:
 
   Get the command to give yourself a player head:
   ---------------------------------------
-  from name-mc.utils import account
+  from name-mc import account
   
   
   commands = account.get_head_command("Account-Name")
@@ -71,7 +71,7 @@ Here's a list of all the functions:
 
   Find matching name for an uuid:
   ---------------------------------------
-  from name-mc.utils import uuid
+  from name-mc import uuid
   
   
   name = uuid.matching_name("UUID")
